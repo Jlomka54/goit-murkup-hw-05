@@ -525,5 +525,53 @@
         </div>
       </div>
     </footer>
+    <!-- ========= OWERLEY ============ -->
+    <div class="modal-owerlay">
+      <div class="modal">
+        <svg class="close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+
+        <form
+          class="form-user-contact"
+          name="contact"
+          autocomplete="off"
+          novalidate
+        >
+          <legend class="form-title">
+            Leave your contacts and we will call you back
+          </legend>
+          <label class="form-label" for="username">Name</label>
+          <input class="form-input" type="text" name="username" />
+          <label class="form-label" for="telephone">Phone</label>
+          <input class="form-input" type="tel" name="telephone" />
+          <label class="form-label" for="email">Email</label
+          ><input class="form-input" type="email" name="email" />
+          <label class="form-label" for="comment"> Comment</label>
+          <textarea
+            class="form-input"
+            name="comment"
+            rows="5"
+            placeholder="Text input"
+          ></textarea>
+        </form>
+        <div class="checkbox-container">
+          <input
+            type="checkbox"
+            name="privacy-policy"
+            value="privacy"
+            required
+          />
+          <label class="checkbox" for="privacy-policy"
+            >I accept the terms and conditions of the<a
+              class="privacy-policy"
+              href=""
+              >Privacy Policy</a
+            ></label
+          >
+        </div>
+        <button class="button" type="submit">Send</button>
+      </div>
+    </div>
   </body>
 </html>

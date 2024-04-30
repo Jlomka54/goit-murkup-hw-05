@@ -550,7 +550,7 @@
       <div class="modal">
         <button class="close-button-owerley" type="button">
           <svg class="close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
+            <use href="./images/icons.svg#icon-close-black-cross"></use>
           </svg>
         </button>
 
@@ -598,37 +598,37 @@
               </svg>
             </div>
           </div>
+          <div class="form-label-container">
+            <label class="form-label" for="user-comment">Comment</label>
+            <textarea
+              class="form-textaria form-input"
+              name="user-comment"
+              id="user-comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="checkbox-container">
+            <input
+              class="footer-checkbox-input visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              required
+            />
+            <label class="checkbox" for="user-privacy"
+              ><span class="user-privacy-span">
+                <svg>
+                  <use href="/images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="footer-privacy-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="button-owerley button" type="button">Send</button>
         </form>
-        <div class="form-label-container">
-          <label class="form-label" for="user-comment">Comment</label>
-          <textarea
-            class="form-textaria form-input"
-            name="user-comment"
-            id="user-comment"
-            rows="5"
-            placeholder="Text input"
-          ></textarea>
-        </div>
-        <div class="checkbox-container">
-          <input
-            class="footer-checkbox-input visually-hidden"
-            type="checkbox"
-            name="user-privacy"
-            id="user-privacy"
-            value="true"
-            required
-          />
-          <label class="checkbox" for="user-privacy"
-            ><span class="user-privacy-span">
-              <svg>
-                <use href="/images/icons.svg#icon-checkbox"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="footer-privacy-link" href="">Privacy Policy</a>
-          </label>
-        </div>
-        <button class="button-owerley button" type="button">Send</button>
       </div>
     </div>
   </body>

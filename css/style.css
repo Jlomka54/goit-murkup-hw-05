@@ -507,9 +507,16 @@ ul {
   color: #fff;
   margin-bottom: 16px;
 }
-.footer-form-container {
+/* .footer-form-container {
   display: flex;
   align-items: baseline;
+  gap: 24px;
+} */
+.footer-form {
+  display: flex;
+  align-items: baseline;
+}
+.footer-form-lable {
   gap: 24px;
 }
 .form-input-footer {

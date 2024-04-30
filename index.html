@@ -525,24 +525,23 @@
         </div>
         <div class="subscribe-container">
           <p class="footer-title-subscribe">Subscribe</p>
-          <div class="footer-form-container">
-            <form class="footer-form">
-              <label class="footer-form-lable">
-                <input
-                  class="form-input-footer"
-                  type="email"
-                  name="email-footer"
-                  placeholder="E-mail"
-                />
-              </label>
-            </form>
+
+          <form class="footer-form">
+            <label class="footer-form-lable">
+              <input
+                class="form-input-footer"
+                type="email"
+                name="email-footer"
+                placeholder="E-mail"
+              />
+            </label>
             <button class="footer-button button" type="submit">
               Subscribe
-              <svg>
+              <svg class="button-svg-icon" height="24" width="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -599,32 +598,37 @@
               </svg>
             </div>
           </div>
-          <label class="form-label" for="comment"> Comment</label>
+        </form>
+        <div class="form-label-container">
+          <label class="form-label" for="user-comment">Comment</label>
           <textarea
-            class="form-input form-textaria"
-            name="comment"
-            id="comment"
+            class="form-textaria form-input"
+            name="user-comment"
+            id="user-comment"
             rows="5"
             placeholder="Text input"
           ></textarea>
-        </form>
+        </div>
         <div class="checkbox-container">
           <input
+            class="footer-checkbox-input visually-hidden"
             type="checkbox"
-            name="privacy-policy"
-            id="privacy-policy"
-            value="privacy"
+            name="user-privacy"
+            id="user-privacy"
+            value="true"
             required
           />
-          <label class="checkbox" for="privacy-policy"
-            >I accept the terms and conditions of the<a
-              class="privacy-policy"
-              href=""
-              >Privacy Policy</a
-            ></label
-          >
+          <label class="checkbox" for="user-privacy"
+            ><span class="user-privacy-span">
+              <svg>
+                <use href="/images/icons.svg#icon-checkbox"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="footer-privacy-link" href="">Privacy Policy</a>
+          </label>
         </div>
-        <button class="button" type="button">Send</button>
+        <button class="button-owerley button" type="button">Send</button>
       </div>
     </div>
   </body>

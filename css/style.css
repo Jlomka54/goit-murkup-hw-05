@@ -557,6 +557,11 @@ ul {
   background-color: rgb(0, 0, 0, 0.5);
   opacity: 0;
   pointer-events: none;
+  transition: opacity 250ms ease-in-out;
+}
+.modal-owerlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
 }
 .modal {
   position: absolute;
@@ -615,6 +620,7 @@ ul {
   width: 360px;
   height: 40px;
   padding: 11px 0 11px 16px;
+  margin-bottom: 8px;
 }
 .form-icon-container:focus-within .form-label {
   border-color: #4d5ae5;

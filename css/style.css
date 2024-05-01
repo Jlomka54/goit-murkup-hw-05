@@ -611,7 +611,7 @@ ul {
 .close-button-owerley:focus {
   background-color: #404bbf;
   border: none;
-  color: #ffffff;
+  fill: #ffffff;
 }
 .close-icon {
   cursor: pointer;
@@ -675,7 +675,7 @@ ul {
   fill: #4d5ae5;
 }
 .form-label-container {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-input-icon-container {
